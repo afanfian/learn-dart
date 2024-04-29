@@ -1,12 +1,15 @@
 // Contoh penggunaan null safety di dart
+/*
+    Jika menggunakan langsung untuk konversi dari integer ke double akan error karena nilainya terindikasi null
+    double ageDouble = age.toDouble();
+   Sehingga diperlukan pengecekan atau Null Check seperti berikut agar bisa diprint
+*/
 
 void main (){
 
    // Null Check
    int? age = null;
-   // Jika menggunakan langsung untuk konversi dari integer ke double akan error karena nilainya terindikasi null
-   // double ageDouble = age.toDouble();
-   // Sehingga diperlukan pengecekan atau Null Check seperti berikut agar bisa diprint
+  
     if(age != null){
         print(age.toDouble());
     }

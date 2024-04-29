@@ -14,8 +14,10 @@ void main (){
     print (number_2);
 
     // Num
-    // Num berfungsi untuk mengetahui tipe data yang kita gunakan itu bilangan bulat & desimal
-    // Jika menggunakan num maka value bisa dirubah seperti dibawah ini
+    /*
+    Num berfungsi untuk mengetahui tipe data yang kita gunakan itu bilangan bulat & desimal
+    Jika menggunakan num maka value bisa dirubah seperti dibawah ini
+    */
     num number_3 = 10;
     number_3 = 20;
     num number_4 = 20.5;

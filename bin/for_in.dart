@@ -18,5 +18,9 @@ void main(){
         print(i);
     }
     */
+    var a = <String>['Dart', 'Javascript', 'Python', 'Java', 'PHP'];
+    for(var i in a){
+        print(i);
+    }
 
 }

@@ -1,9 +1,12 @@
 // Contoh penggunaan dynamic di dart
 
+/*
+    Dynamic
+    Dynamic adalah tipe data yang bisa diubah-ubah
+    Dynamic bisa diisi dengan tipe data apapun
+*/
+
 void main (){
-    // Dynamic
-    // Dynamic adalah tipe data yang bisa diubah-ubah
-    // Dynamic bisa diisi dengan tipe data apapun
     dynamic name = 'Fian Awamiry Maulana';
     print (name);
     name = 20;

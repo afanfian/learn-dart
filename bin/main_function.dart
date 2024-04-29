@@ -22,3 +22,7 @@ void main(List<String> args){
     print('Arguments: $args');
 }
 */
+
+void main(List<String> args){
+    print('Arguments: $args');
+}

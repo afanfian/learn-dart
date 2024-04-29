@@ -1,9 +1,12 @@
 // Contoh penggunaan boolean di dart
 
+/*
+    Boolean
+    Boolean hanya memiliki 2 value yaitu true dan false
+    Boolean bisa di operasikan dengan operator logika seperti &&, ||, !
+*/
+
 void main(){
-    // Boolean
-    // Boolean hanya memiliki 2 value yaitu true dan false
-    // Boolean bisa di operasikan dengan operator logika seperti &&, ||, !
     bool isTrue = true;
     bool isFalse = false;
 

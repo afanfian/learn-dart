@@ -1,10 +1,12 @@
 // Contoh penggunaan map di dart
-// map.length mendapatkan panjang length
-// map.isEmpty mengecek apakah map kosong
-// map.isNotEmpty mengecek apakah map tidak kosong
-// map[key] mendapatkan value dari key
-// map[key] = value menambahkan key dan value
-// map.remove(key) menghapus key dan value
+/*
+    map.length mendapatkan panjang length
+    map.isEmpty mengecek apakah map kosong
+    map.isNotEmpty mengecek apakah map tidak kosong
+    map[key] mendapatkan value dari key
+    map[key] = value menambahkan key dan value
+    map.remove(key) menghapus key dan value
+*/
 
 void main(){
     // Define penulisan map

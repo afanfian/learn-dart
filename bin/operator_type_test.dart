@@ -5,8 +5,10 @@ void main() {
   dynamic kata = "Hello";
 
   // Operator as
-  // Operator as digunakan untuk mengkonversi tipe data 
-  // Note jika tipe datanya string tidak bisa dirubah ke integer atau sebaliknya
+  /*
+    Operator as digunakan untuk mengkonversi tipe data 
+    Note jika tipe datanya string tidak bisa dirubah ke integer atau sebaliknya
+  */
   var angkaString = angka as int;
   var kataString = kata as String;
   print(angkaString);   

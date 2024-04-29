@@ -9,6 +9,10 @@
     Jika menambahkan required parameter jika langsung mengisi data dan tidak menambahkan parameter maka akan error
 */
 
+void sayHello({String? firstName, String? lastName}){
+    print('Hallo $firstName $lastName');
+}
+
 void main(){
     // Akan muncul Halo null null
     sayHello();
